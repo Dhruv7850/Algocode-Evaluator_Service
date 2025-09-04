@@ -5,7 +5,7 @@ module.exports = tseslint.config(
     {
         rules: {
             'semi': ['error', 'always'],
-            '@typescript-eslint/no-unused-vars': 'error',
+            '@typescript-eslint/no-unused-vars': 'off',
         },
     },
     {

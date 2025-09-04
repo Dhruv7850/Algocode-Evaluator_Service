@@ -6,5 +6,4 @@ const app = express();
 
 app.listen(serverConfig.PORT,()=>{
     console.log(`Server started at ${serverConfig.PORT}`);
-    console.log("yoyohoneySingh");
 })

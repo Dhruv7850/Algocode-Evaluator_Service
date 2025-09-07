@@ -1,7 +1,10 @@
 import express from "express";
 import { pingCheck } from "../controller/pingController";
+import submissionRouter from "./v1/submissionRoute";
 
 const v1Router = express.Router();
+
+v1Router.use('/submission', submissionRouter);
 
 v1Router.get('/ping', pingCheck);
 
